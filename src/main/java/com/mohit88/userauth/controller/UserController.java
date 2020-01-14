@@ -11,7 +11,7 @@ import com.mohit88.userauth.domain.User;
 import com.mohit88.userauth.service.UserService;
 
 @RestController
-@RequestMapping("/users")
+@RequestMapping("/api/users")
 public class UserController {
 
 	@Autowired
